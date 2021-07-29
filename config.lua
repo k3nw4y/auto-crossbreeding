@@ -2,8 +2,8 @@ local config = {
     -- be aware that each config should be followed by a comma
 
     -- the side length of the crossbreeding farm
-    -- the recommend value is 9 because it's crop-matron's working area size.
-    farmSize = 9,
+    -- the recommend value is 9 because it's crop-matron's working area size, but you can set as you need.
+    farmSize = 5,
     -- the side length of the new crop storage farm
     -- the recommend value is 13 because it's just enough to hold all the crops in GTNH
     storageFarmSize = 13, -- don't change
@@ -15,13 +15,14 @@ local config = {
     chargerPos = {0, 0},
     -- the coordinate for the container contains crop sticks
     stickContainerPos = {0, 1},
-    -- the coordinate for the farmland that the dislocaotr is facing
-    relayFarmlandPos = {0, 2},
-    -- the coordinate for the transvector dislocator
-    dislocatorPos = {0, 3},
     -- the coordinate for the container to store seeds, products, etc
     -- has no effect unless you turn on "takeCareOfDrops" flag.
-    storagePos = {0, 5},
+    storagePos = {0, 2},
+    -- the coordinate for the transvector dislocator
+    dislocatorPos = {0, 3},
+    -- the coordinate for the farmland that the dislocaotr is facing
+    relayFarmlandPos = {0, 4},
+
 
     -- the slot for spade, count from 0, count from bottom-right to top-left
     spadeSlot = 0,
@@ -38,7 +39,7 @@ local config = {
     -- from destroying crops, harvesting crops, destroying sticks, etc
     -- if you are using this scrip set to do everything, there isn't realy any point to use this.
     -- this option and the option below isn't actively maintained because I don't use this function.
-    takeCareOfDrops = false,
+    takeCareOfDrops = true,
 
     -- if you turn on this flag, you need to prepare a storage farm
     -- the recommend size is 13, which you change above.
@@ -57,7 +58,7 @@ local config = {
     -- nonstop fill remaining goal i.e. number of non completed crops that must be achieved to start the next clean and restatt process
     -- dont set this to more than half the total number of crops else it will always recycle
 
-    autoFillNonstopGoal = 1,
+    autoFillNonstopGoal = 2,
 
     -----------Do Not Change Zone------------
 

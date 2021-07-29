@@ -2,9 +2,9 @@
 Change path to github location to pull from (for those who fork...)
 Ensure you have the '/ at the end
 
-tinyUrl: https://bit.ly/2Vgn4ki
+
 ]]
-local path = "https://raw.githubusercontent.com/AtomicGrog/auto-crossbreeding/"
+local path = "https://raw.githubusercontent.com/k3nw4y/auto-crossbreeding/"
 
 local shell = require("shell")
 local filesystem = require("filesystem")
