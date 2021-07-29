@@ -10,6 +10,9 @@
 - Geolyzer (block)
 - Internet Card (if you want to install over internet, not necessary.)
 
+Robot Components
+
+
 ![Robot Components](readme_images/Basic_robo_components.png)
 
 
