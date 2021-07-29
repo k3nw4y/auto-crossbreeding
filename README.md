@@ -32,7 +32,7 @@ Setup for crossbreeding:
 
 Setup for min-maxing:
 
-The setup is pretty much the same except you don't need the 13*13 farmland on the left
+![setup for min-maxing](readme_images/2021-07-29_15.01.04.png)
 
 Setup for spreading:
 
