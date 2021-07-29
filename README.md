@@ -34,6 +34,8 @@ Setup for min-maxing:
 
 ***The setup below is Uptodate as per the config.lua.***
 
+Make sure you bind the transvector binder to the dislocator
+
 ![setup for min-maxing](readme_images/2021-07-29_15.01.04.png)
 
 Setup for spreading:
